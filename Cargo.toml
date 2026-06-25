@@ -15,7 +15,7 @@ members = [
 ]
 
 [workspace.package]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 # Minimum supported Rust version. Pinned conservatively; CI uses stable (>= this)
 # and the nix devshell's rustc is canonical.
@@ -32,7 +32,7 @@ repository = "https://github.com/0xfell/open-media"
 om-core = { path = "crates/om-core", version = "0.1.0" }
 om-config = { path = "crates/om-config", version = "0.1.0" }
 om-metadata = { path = "crates/om-metadata", version = "0.1.0" }
-om-sources = { path = "crates/om-sources", version = "0.1.0" }
+om-sources = { path = "crates/om-sources", version = "0.1.1" }
 om-debrid = { path = "crates/om-debrid", version = "0.1.0" }
 om-stream = { path = "crates/om-stream", version = "0.1.0" }
 om-player = { path = "crates/om-player", version = "0.1.0" }

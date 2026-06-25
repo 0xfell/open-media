@@ -6,6 +6,22 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.1](https://github.com/0xfell/open-media/compare/v0.1.0...v0.1.1) - 2026-06-25
+
+### Changed
+
+- Add keyless Cinemeta metadata, fix audit bugs + episode titles
+- Initial commit: docs, architecture, and SOLID workspace scaffold
+- Add filterable/sortable Sources panel to the TUI
+- Implement Phases 1-3: metadata, sources, debrid + full e2e tests
+- Implement Phase 9: interactive ratatui TUI + UX fixes
+- Implement Phases 4, 6, 7: P2P streaming, tracking/enrich/presence, history
+- Implement Phase 5 (players) + Phase 8 (orchestration) + live tests
+
+### Fixed
+
+- *(sources)* scope nyaa anime results to the selected season
+
 ## [0.1.0] - 2026-06-25
 
 ### Added — Phase 10: packaging (Nix flake + cachix CI)
